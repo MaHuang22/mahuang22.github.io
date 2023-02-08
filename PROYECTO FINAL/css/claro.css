@@ -1,0 +1,77 @@
+/*Estilo claro*/
+*{
+	margin: 5px ;
+	box-sizing: border-box;
+	color: rgb(0, 3, 8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+body{
+	background-color: rgb(228, 235, 244);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo{
+	width: 75%;
+	max-width: 1200px;
+	min-height: 120px;
+	background-color: #8fc5f5;
+	margin: 5px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.izquierdo{
+	position: initial;
+	background-color: rgb(177, 191, 205);
+	padding: 10px;
+
+}
+.derecho{
+	position: initial;
+	background-color: rgb(242, 245, 250);
+	padding: 20px;
+
+}
+.f_perfil .i_contacto, .habilidades, .idiomas, .hobbies, .titulo,
+.sumario, .experiencia, .educacion {
+	margin-bottom: 35px;
+}
+.botones{
+	margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+/*
+	margin-top: 30%
+	margin-left: 50%;
+}*/
+/*h2{
+	background-color: rgb(4, 96, 150);
+    rgba(95, 95, 95, 0.4);
+}-->*/
+h2{
+    text-decoration: underline rgba(24, 24, 24, 0.25);
+    font-size: 17px;
+}
+img{
+    border: 10px solid #e4e9e9;
+    width: 350;
+    height: 350;
+}
+
+h1{
+    font-size: 25px;
+}
+
+table{
+    font-family: arial;
+    border-collapse: separate;
+    width: 90%;
+}
+  
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
